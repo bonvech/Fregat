@@ -1,0 +1,11 @@
+// file of work master of SPHERE-2 detector
+//  2011
+// rules: one parameter per line.
+//        BIG characters for NAME
+//
+
+// Local threshould trigger condition
+MASTER 3
+
+// Global threshould trigger condition
+GMASTER 5

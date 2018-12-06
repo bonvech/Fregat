@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Fregat: Файл include/nograph.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Fregat
+   &#160;<span id="projectnumber">2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Макросы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл nograph.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Работа с буфером fadc.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="nograph_8cpp__dep__incl.png" border="0" usemap="#include_2nograph_8cppdep" alt=""/></div>
+<map name="include_2nograph_8cppdep" id="include_2nograph_8cppdep">
+<area shape="rect" id="node2" href="fadcbord_8cpp.html" title="Класс fadc_board. " alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node3" href="include_8h.html" title="Константы, библиотеки " alt="" coords="19,155,141,181"/>
+<area shape="rect" id="node4" href="sphere_8cpp.html" title="Программа автономной работы установки СФЕРА " alt="" coords="35,229,125,256"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макросы</h2></td></tr>
+<tr class="memitem:ab2aea7e3bec3c6c7e3c0d46e93ee9688"><td class="memItemLeft" align="right" valign="top"><a id="ab2aea7e3bec3c6c7e3c0d46e93ee9688"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RG1ADDR</b>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:ab2aea7e3bec3c6c7e3c0d46e93ee9688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075069a5671bc475bce1fa8152cf453e"><td class="memItemLeft" align="right" valign="top"><a id="a075069a5671bc475bce1fa8152cf453e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RG0ADDR</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a075069a5671bc475bce1fa8152cf453e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a89c5b01e9ec28e0a4664e1c3cd543"><td class="memItemLeft" align="right" valign="top"><a id="ae5a89c5b01e9ec28e0a4664e1c3cd543"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>STROBB</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ae5a89c5b01e9ec28e0a4664e1c3cd543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b29034fc049c915eafb2a9d2d7680f"><td class="memItemLeft" align="right" valign="top"><a id="a89b29034fc049c915eafb2a9d2d7680f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>STROBE</b>&#160;&#160;&#160;512</td></tr>
+<tr class="separator:a89b29034fc049c915eafb2a9d2d7680f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2aea7e3bec3c6c7e3c0d46e93ee9688"><td class="memItemLeft" align="right" valign="top"><a id="ab2aea7e3bec3c6c7e3c0d46e93ee9688"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#ab2aea7e3bec3c6c7e3c0d46e93ee9688">RG1ADDR</a>&#160;&#160;&#160;10</td></tr>
+<tr class="memdesc:ab2aea7e3bec3c6c7e3c0d46e93ee9688"><td class="mdescLeft">&#160;</td><td class="mdescRight">address of RG1 register <br /></td></tr>
+<tr class="separator:ab2aea7e3bec3c6c7e3c0d46e93ee9688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075069a5671bc475bce1fa8152cf453e"><td class="memItemLeft" align="right" valign="top"><a id="a075069a5671bc475bce1fa8152cf453e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#a075069a5671bc475bce1fa8152cf453e">RG0ADDR</a>&#160;&#160;&#160;8</td></tr>
+<tr class="memdesc:a075069a5671bc475bce1fa8152cf453e"><td class="mdescLeft">&#160;</td><td class="mdescRight">address of RG0 register <br /></td></tr>
+<tr class="separator:a075069a5671bc475bce1fa8152cf453e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a89c5b01e9ec28e0a4664e1c3cd543"><td class="memItemLeft" align="right" valign="top"><a id="ae5a89c5b01e9ec28e0a4664e1c3cd543"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#ae5a89c5b01e9ec28e0a4664e1c3cd543">STROBB</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ae5a89c5b01e9ec28e0a4664e1c3cd543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strob begin. <br /></td></tr>
+<tr class="separator:ae5a89c5b01e9ec28e0a4664e1c3cd543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b29034fc049c915eafb2a9d2d7680f"><td class="memItemLeft" align="right" valign="top"><a id="a89b29034fc049c915eafb2a9d2d7680f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#a89b29034fc049c915eafb2a9d2d7680f">STROBE</a>&#160;&#160;&#160;512</td></tr>
+<tr class="memdesc:a89b29034fc049c915eafb2a9d2d7680f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strob end. <br /></td></tr>
+<tr class="separator:a89b29034fc049c915eafb2a9d2d7680f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a2ac0d6834ae8cd12d0a51625f420db04"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#a2ac0d6834ae8cd12d0a51625f420db04">get_event</a> (int flag)</td></tr>
+<tr class="separator:a2ac0d6834ae8cd12d0a51625f420db04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82eb4850c904344ed0a4f0e391450825"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#a82eb4850c904344ed0a4f0e391450825">read_buffer_flag</a> (void)</td></tr>
+<tr class="separator:a82eb4850c904344ed0a4f0e391450825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae869f22b213dfb78019e0a6e9c403048"><td class="memItemLeft" align="right" valign="top"><a id="ae869f22b213dfb78019e0a6e9c403048"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>start_fadc_boards</b> ()</td></tr>
+<tr class="separator:ae869f22b213dfb78019e0a6e9c403048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894dd460b332731d152531208ed0e720"><td class="memItemLeft" align="right" valign="top"><a id="a894dd460b332731d152531208ed0e720"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#a894dd460b332731d152531208ed0e720">reset_channels</a> ()</td></tr>
+<tr class="memdesc:a894dd460b332731d152531208ed0e720"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset channels <br /></td></tr>
+<tr class="separator:a894dd460b332731d152531208ed0e720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f3b9f508c6f7415bffb2a21eff8f19"><td class="memItemLeft" align="right" valign="top"><a id="ae0f3b9f508c6f7415bffb2a21eff8f19"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#ae0f3b9f508c6f7415bffb2a21eff8f19">permit_channels</a> ()</td></tr>
+<tr class="memdesc:ae0f3b9f508c6f7415bffb2a21eff8f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit count to channels <br /></td></tr>
+<tr class="separator:ae0f3b9f508c6f7415bffb2a21eff8f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9f6b35fe3db042eb64e456ad36ccb4"><td class="memItemLeft" align="right" valign="top"><a id="a0e9f6b35fe3db042eb64e456ad36ccb4"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>prohibit_channels</b> ()</td></tr>
+<tr class="separator:a0e9f6b35fe3db042eb64e456ad36ccb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a51a604783964938920babc4fba9763"><td class="memItemLeft" align="right" valign="top"><a id="a4a51a604783964938920babc4fba9763"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#a4a51a604783964938920babc4fba9763">fifo_err</a> (void)</td></tr>
+<tr class="memdesc:a4a51a604783964938920babc4fba9763"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns 1 if there is error in RG0: bit 8 <br /></td></tr>
+<tr class="separator:a4a51a604783964938920babc4fba9763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12f82055a5d31ad76003ca609b753fc"><td class="memItemLeft" align="right" valign="top"><a id="ab12f82055a5d31ad76003ca609b753fc"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>reset_counters</b> ()</td></tr>
+<tr class="separator:ab12f82055a5d31ad76003ca609b753fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4cdb0ebb6f7924e318be05180b7bbb2"><td class="memItemLeft" align="right" valign="top"><a id="ac4cdb0ebb6f7924e318be05180b7bbb2"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>stop_counters</b> ()</td></tr>
+<tr class="separator:ac4cdb0ebb6f7924e318be05180b7bbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05653bd3ac4e6c3a4946da288805240"><td class="memItemLeft" align="right" valign="top"><a id="af05653bd3ac4e6c3a4946da288805240"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>start_counters</b> ()</td></tr>
+<tr class="separator:af05653bd3ac4e6c3a4946da288805240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01eb70d0a8f30b27717b29dafe273275"><td class="memItemLeft" align="right" valign="top"><a id="a01eb70d0a8f30b27717b29dafe273275"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>read_counters</b> ()</td></tr>
+<tr class="separator:a01eb70d0a8f30b27717b29dafe273275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7096b2c54b5d0feef15a8b00db77bb0"><td class="memItemLeft" align="right" valign="top"><a id="ad7096b2c54b5d0feef15a8b00db77bb0"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nograph_8cpp.html#ad7096b2c54b5d0feef15a8b00db77bb0">read_3RG</a> ()</td></tr>
+<tr class="memdesc:ad7096b2c54b5d0feef15a8b00db77bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">read 3 registers before read fadc <br /></td></tr>
+<tr class="separator:ad7096b2c54b5d0feef15a8b00db77bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Работа с буфером fadc. </p>
+<p>Функции, выполняемые во время измерений. Часть класса <a class="el" href="classfadc__board.html">fadc_board</a> </p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="a2ac0d6834ae8cd12d0a51625f420db04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac0d6834ae8cd12d0a51625f420db04">&#9670;&nbsp;</a></span>get_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int get_event </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<hr/>
+<p> get event Read events from buffer and write it to binary data file (fout) </p><h2>flag - write (0) or not (not 0) to file *fkadf= 'Event' </h2>
+
+</div>
+</div>
+<a id="a82eb4850c904344ed0a4f0e391450825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82eb4850c904344ed0a4f0e391450825">&#9670;&nbsp;</a></span>read_buffer_flag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned short read_buffer_flag </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<hr/>
+<p> read buffer flag </p><dl class="section return"><dt>Возвращает</dt><dd>1 - there is data in the buffer</dd></dl>
+<dl class="section user"><dt></dt><dd>0 - no data </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

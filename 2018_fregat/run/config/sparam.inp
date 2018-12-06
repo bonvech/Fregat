@@ -1,0 +1,61 @@
+// file of work parameters of SPHERE-2 detector
+// for March 2012
+// rules: one parameter per line.
+//        BIG characters for NAME
+//
+
+
+// PERIOD [sec] - time to write one file
+PERIOD 300 
+
+// WAIT  1 - start in time from file, 0 - start now
+WAIT 0
+
+// Local threshould trigger condition
+MASTER 3
+
+// Global threshould trigger condition
+GMASTER 50
+
+// rate to set level to in one channel
+//  !!! float!! with '.'
+RATE 1.0
+
+//  min & max levels in FADC channels
+LMIN 4
+LMAX 1023
+
+// WorkCur, MaxCur [mA] - PMT current work and maximal
+MAXCUR  2
+WORKCUR 1
+
+//  max U_high in hv channels
+UMAX 250
+//  min U_high in hv channels
+UMIN 170
+
+// parameters for HAMAMATSU
+// WorkCur, MaxCur [mA] - PMT current work and maximal
+H_MAXCUR  50
+H_WORKCUR 3
+
+//  max U_high in HAMAMATSU
+H_UMAX 150
+//  min U_high in HAMAMATSU
+H_UMIN 50
+
+// for HAMAMATSU
+H_VIP 55
+H_CHAN 1
+
+// BUF2  old - 512, now 510 !!
+BUF2 510
+
+// number of high voltage (hv, vip) channels
+HVCHAN 112
+
+// OFF 1 - off vip & fadc, 0-no off
+OFF 1
+
+// 1 - out print to screen, 0 - no out print
+ONSCREEN 0

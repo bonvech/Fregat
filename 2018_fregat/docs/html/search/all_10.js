@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['save_5feventnumber_5fto_5ffile',['save_eventnumber_to_file',['../operate_8cpp.html#a388e7f49195e840e7c646b6a06bd7a45',1,'operate.cpp']]],
+  ['scl',['SCL',['../classlvps.html#a64ecb1f5e0421629cf008dc9ed0e5158',1,'lvps']]],
+  ['sda',['SDA',['../classlvps.html#abbf903b3ebb4b6c92f2f03e3a1065d2d',1,'lvps']]],
+  ['sdain',['SDAin',['../classlvps.html#aab7dd5d48d9beaa72dad9282c61082fb',1,'lvps']]],
+  ['search_5fcompetitor',['search_competitor',['../operate_8cpp.html#aaa6ee8f9ab9a3fe5893c2bf59e53dd80',1,'operate.cpp']]],
+  ['sec5',['SEC5',['../operate_8cpp.html#a9b1a1d2fa69b6db9f85e9522d3c2fc8e',1,'operate.cpp']]],
+  ['sec60',['SEC60',['../operate_8cpp.html#a4e4d30939be87e6faac9206bb26b7b91',1,'operate.cpp']]],
+  ['self_5ftest',['self_test',['../classhvps__test.html#a65160f9aebc8fd7b9a691f7314ed607f',1,'hvps_test']]],
+  ['set_5finn_5fvent',['set_inn_vent',['../classlvps__dev.html#adb5ecff5cd1ad57221e891787499d664',1,'lvps_dev']]],
+  ['set_5fout_5fvent',['set_out_vent',['../classlvps__dev.html#a1d85c1efd2fe00e399db39ac78e6aa0e',1,'lvps_dev']]],
+  ['set_5frgs',['set_RGs',['../classfadc__board.html#ae27eb2eb029afa0683e9929353973c5c',1,'fadc_board::set_RGs()'],['../levels_8cpp.html#af114e853f162eda3ecc01da62cc9bc32',1,'set_RGs():&#160;levels.cpp']]],
+  ['set_5fthr',['set_THR',['../classfadc__board.html#a18ab840e66a3d58aff1c4b93ff055cb5',1,'fadc_board::set_THR()'],['../levels_8cpp.html#ac669b0e2e91da2f33a6acb493c9d00cf',1,'set_THR():&#160;levels.cpp']]],
+  ['set_5fthr_5ffrom_5ffile',['set_THR_from_file',['../classfadc__board.html#ae3fe8732bfbb5f4e9ddd9e7d6439305a',1,'fadc_board::set_THR_from_file()'],['../levels_8cpp.html#a99cb89ca586a7cda19cc00113cd449d2',1,'set_THR_from_file():&#160;levels.cpp']]],
+  ['setchanhigh',['SetChanHigh',['../classhvps__test.html#ac220fedf78d77735f541417c95d95703',1,'hvps_test']]],
+  ['setchanneladdr',['SetChannelAddr',['../classlvps.html#a4950c28b74b6c5ae2c86ce56000e1c5f',1,'lvps']]],
+  ['setsubaddr',['SetSubAddr',['../classhvps__test.html#aa7166a71f2768f5cde2d55aaeb690720',1,'hvps_test']]],
+  ['simulate_5fevent',['simulate_event',['../operate_8cpp.html#aa3d5d42b7b2cfc9041132ef447e0c0c2',1,'operate.cpp']]],
+  ['sphere_2ecpp',['sphere.cpp',['../sphere_8cpp.html',1,'']]],
+  ['strobb',['STROBB',['../nograph_8cpp.html#ae5a89c5b01e9ec28e0a4664e1c3cd543',1,'nograph.cpp']]],
+  ['strobe',['STROBE',['../nograph_8cpp.html#a89b29034fc049c915eafb2a9d2d7680f',1,'nograph.cpp']]]
+];
